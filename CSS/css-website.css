@@ -1,15 +1,30 @@
 /* Top Navigation */
 
+html { 
+min-height: 100vh;
+position: relative;
+}
 body {
   margin: 0;
+  /*background-size: cover  */
+  background-color: #f2f2f2;
+  background-image: url("../Images/Sonic.wesbite.background.jpg");
+  background-size: 100%;
+  min-height: 100vh;
+
+  
 }
 
 /* Add a black background color to the top navigation */
 .topNav {
   margin: 0;
-  background-color:  #0a0c8c;
+  background-image: linear-gradient(to right, red, #0a0c8c);
   overflow: hidden;
 }
+.topNav > li > a {
+  color: white;
+}
+
 
 /* Style the links inside the navigation bar */
 .topNav li {
@@ -35,4 +50,165 @@ body {
 .topNav a.active {
   background-color: #f2f2f2;
   color: white;
+}
+
+
+.sonicrun h1 {
+color: #ffffff;
+
+
+
+
+
+}
+
+
+
+
+
+
+/* Add a color and style to the footer */
+footer{ 
+  background-image: linear-gradient(to right, red, #0a0c8c);
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  /* margin-top: 400px; */
+width: 100%;
+
+}
+
+
+.gamebox {
+
+  width: 800px;
+  height: 400px;
+  border: 15px solid #c40a23;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login page */
+
+*/{
+ margin: 0; 
+ padding: 0;
+ font-family: 'poppins',sans-serif;
+ 
+｝
+.section{
+ display: flex;
+ justify-content: center; 
+ align-items: center; 
+ min-height: 100vh;
+ width: 100%; 
+ 
+ background: url('backgroud6.jpg') no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+
+｝
+.form-box{
+position: relative;
+width: 400px;
+height: 450px; 
+background: transparent;
+border: 2px soild rgba(255,255,255,0.5);
+border-radius: 20px;
+backdrop-filter: blur(15px);
+display: flex;
+justify-content: center; 
+align-items: center;
+}
+
+.h2{
+  font-size: 2em; 
+  color: #fff;
+  text-align: center;
+  
+｝
+
+
+.inputbox {
+  position: relative;
+  margin: 30px 0; width: 310px;
+  border-bottom: 2px solid
+
+  }
+  .inputbox label{
+  position: absolute;
+  top: 50%; 
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: lem;
+  pointer-events: none;
+
+  }
+  inputbox:focus ~ label
+  inputbox:valid ~ label{
+  top: -5px; 
+  }
+.inputbox {
+width: 100%;
+height: 50px;
+background: transparent;
+border: none;
+outline: none;
+font-size: 1em;
+padding: 0 35px 0 5px;
+color: #fff;
+}
+.inputbox ion-icon{
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  top: 20px;
+}
+.forget{
+  margin: -15px 0 15px;
+  font-size: .9em;
+  color: #fff;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+}
+.forget label input{
+  margin-right: 3px; 
+}
+.forget label a{
+  color: #fff;
+  text-decoration: none;
+}
+.forget label a:hover{
+  text-decoration: underline;
+}
+.bottom{
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+.register{
+  font-size: .9em;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+.register p a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.register p a:hover{
+  text-decoration: underline;
 }
