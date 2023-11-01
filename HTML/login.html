@@ -3,6 +3,7 @@
   <head>
     <title>Login</title>
     <link rel="stylesheet" href="../CSS/css-website.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   </head>
 
   <body>
@@ -20,38 +21,42 @@
     </div>
 
     <div class="sonicrun">
-      <h>Login</h>
+      <h1>Login</h1>
     </div>
-
+<!-- 
     <div class="formlogin">
       <div class="form-box">
         <form action="">
-          <h>Login</h>
+          <h1>Login</h1>
           <div class="Inputbox">
-            <ion-icon name="mail-outline"></ion-icon>
-            <input type="email" required />
-            <label for="">Email</label>
+            <label for="">Email</label><br>
+            <input type="email" required />  -->
+           <!--  <ion-icon name="mail-outline"></ion-icon> -->
+          <!-- > <i class="fa fa-envelope-o" aria-hidden="true"></i> -->
+          <!-- 
+          <img class="emailimage" src="../Images/Email.png" alt="Email logo" >
+            <hr>
+            
           </div>
           <div class="Inputbox">
-            <ion-icon name="lock-closed-outline"></ion-icon>
-            <input type="password" required />
-            <label for="">Password</label>
+            <label for="">Password</label><br>
+            <input type="password" required />  -->
+           <!-- <ion-icon name="lock-closed-outline"></ion-icon> -->
+          <!--  <i class="fa fa-lock" aria-hidden="true"></i> -->
+           <!-- <hr>
           </div>
-
-          <div class="forget">
-            <label for=""
-              ><input type="checkbox" />Remember Me
-              <a href="#">Forget Password</a></label
-            >
-          </div>
-
-          <button>Log in</button>
+       
+         
+          <button class="login-btn">Log in</button>
           <div class="register">
             <p>Don't have a account <a href="#">Register</a></p>
           </div>
         </form>
       </div>
     </div>
+  -->
+  
+<!--
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -60,7 +65,40 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    |
+
+
+-->
+<div class="login-center">
+  <h1>Login</h1>
+  <form method="post">
+    <div class="txt_field">
+      <input type="text" required>
+      <span></span>
+      <label>Email</label>
+      <img class="emailimage" src="../Images/Email.png" alt="Email logo" >
+      
+    </div>
+    <div class="txt_field">
+      <input type="password" required>
+      <span></span>
+      <label>Password</label>
+      <img class="passwordlogo" src="../Images/lock.png" alt="Lock logo" >
+      
+    </div>
+    <div class="forgot">
+      <label for=""
+        ><input type="checkbox" />Remember Me </label>
+    </div>
+    <div class="pass">Forgot Password?</div>
+    <input type="submit" value="Login">
+    <div class="signup_link">
+      Don't have a account? <a href="../HTML/sign-up.html">Sign-up</a>
+    </div>
+  </form>
+</div>
+
+
+
   </body>
 
   <footer>
