@@ -251,8 +251,6 @@ input[type="submit"]:hover {
 
 /* login page styling END*/
 
-
-
 /* sign-up page styling START */
 .forgot-sign-up {
   margin: 10px 0 10px 0;
@@ -397,25 +395,18 @@ input[type="submit"]:hover {
   text-decoration: underline;
 }
 
-
-
-
-
-
 /* sign-up page styling END  */
-
-
 
 /* Leaderboard page styling START  */
 
-table, td, th {  
+table,
+td,
+th {
   border: 1px solid #ddd;
   text-align: left;
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
-  
-
 }
 
 table {
@@ -424,33 +415,25 @@ table {
   font-family: "Sonic Sans", sans-serif;
   backdrop-filter: blur(15px);
   color: white;
-
 }
 
-th, td {
+th,
+td {
   padding: 15px;
-
 }
 
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-   
-  tr:hover {background-color: rgb(255, 0, 0); 
-    backdrop-filter: blur(0px);
-  }
-  
-  
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
-  th {
-    background-color: #0a0c8c;
-    color: white;
+tr:hover {
+  background-color: rgb(255, 0, 0);
+  backdrop-filter: blur(0px);
+}
 
-
-  }
-  /* Leaderboard page styling END  */
-
-
-
-  
+th {
+  background-color: #0a0c8c;
+  color: white;
+}
+/* Leaderboard page styling END  */

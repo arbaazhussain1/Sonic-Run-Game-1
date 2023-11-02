@@ -3,18 +3,20 @@
   <head>
     <title>Login</title>
     <link rel="stylesheet" href="../CSS/css-website.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
   </head>
 
   <body>
     <!-- Top Navigation -->
     <div class="topnav">
       <ul class="topNav">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="sign-up.html">Sign-Up</a></li>
         <li><a href="login.html">Login</a></li>
         <li><a href="leaderboard.html">Leader Board</a></li>
-
       </ul>
     </div>
 
@@ -22,37 +24,31 @@
       <h1>Login</h1>
     </div>
 
-<div class="login-center">
-  <h1>Login</h1>
-  <form method="post">
-    <div class="text_field">
-      <input type="text" required>
-      <span></span>
-      <label>Email</label>
-      <img class="emailimage" src="../Images/Email.png" alt="Email logo" >
-      
+    <div class="login-center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="text_field">
+          <input type="text" required />
+          <span></span>
+          <label>Email</label>
+          <img class="emailimage" src="../Images/Email.png" alt="Email logo" />
+        </div>
+        <div class="text_field">
+          <input type="password" required />
+          <span></span>
+          <label>Password</label>
+          <img class="passwordlogo" src="../Images/lock.png" alt="Lock logo" />
+        </div>
+        <div class="forgot">
+          <label for=""><input type="checkbox" />Remember Me </label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login" />
+        <div class="signup_link">
+          Don't have a account? <a href="../HTML/sign-up.html">Sign-up</a>
+        </div>
+      </form>
     </div>
-    <div class="text_field">
-      <input type="password" required>
-      <span></span>
-      <label>Password</label>
-      <img class="passwordlogo" src="../Images/lock.png" alt="Lock logo" >
-      
-    </div>
-    <div class="forgot">
-      <label for=""
-        ><input type="checkbox" />Remember Me </label>
-    </div>
-    <div class="pass">Forgot Password?</div>
-    <input type="submit" value="Login">
-    <div class="signup_link">
-      Don't have a account? <a href="../HTML/sign-up.html">Sign-up</a>
-    </div>
-  </form>
-</div>
-
-
-
   </body>
 
   <footer>
