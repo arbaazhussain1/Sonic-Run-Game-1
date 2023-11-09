@@ -16,7 +16,7 @@ const setError = (Element, message) => {
      
 
 }
-
+// jjj?//
 
 const validateInputs = () => {
     const firstnameValue = firstname.value.trim();
