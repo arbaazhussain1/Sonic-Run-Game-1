@@ -64,6 +64,12 @@ body {
   font-family: "Sonic Sans", sans-serif;
   font-size: 60px;
 }
+/* creating logo / styling*/
+.Logo {
+  color: #ffffff;
+  font-family: "Sonic Sans", sans-serif;
+  font-size: 20px;
+}
 
 /* Add a color and style to the footer */
 footer {
@@ -74,7 +80,7 @@ footer {
   /* margin-top: 400px; */
   width: 100%;
 }
-
+/* Add position of image and size */
 .section {
   display: flex;
   justify-content: center;
@@ -87,18 +93,7 @@ footer {
   background-size: cover;
 }
 
-.bottom {
-  width: 100%;
-  height: 40px;
-  border-radius: 40px;
-  background: #fff;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-size: 1em;
-  font-weight: 600;
-}
-
+/* Created a box for the game to be placed in */
 .gamebox {
   width: auto;
   height: 400px;
@@ -112,6 +107,8 @@ footer {
 
 /* login page styling START*/
 
+/* /* This create a style for the text, size and colour*/
+
 .forgot {
   margin: 10px 0 10px 0;
   color: #fff;
@@ -119,28 +116,33 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+/*This is for forgot password position/layout */
 .forgot label input {
   margin-right: 3px;
 }
+/* With the forgot password it is coloured */
 .forgot label a {
   color: #fff;
   text-decoration: none;
 }
+/* Also, the forgot password text has a hover which underline */
 .forgot label a:hover {
   text-decoration: underline;
 }
-
+/* Email image postions  */
 .emailimage {
   width: 20px;
   height: 20px;
   margin-left: 330px;
 }
+/* Lock image postions  */
 .passwordlogo {
   width: 20px;
   height: 20px;
   margin-left: 330px;
 }
-
+/* Created position/size and background colour for the Login page*/
 .login-center {
   position: absolute;
   top: 50%;
@@ -153,6 +155,7 @@ footer {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
   border: 0.6px solid red;
 }
+/* This creates the text style, colour Format */
 .login-center h1 {
   text-align: center;
   font-family: "Sonic Sans", sans-serif;
@@ -160,15 +163,18 @@ footer {
   padding: 20px 0;
   border-bottom: 1px solid white;
 }
+/* login form layout*/
 .login-center form {
   padding: 0 40px;
   box-sizing: border-box;
 }
+/* form .text_field is used to create underline in login page */
 form .text_field {
   position: relative;
   border-bottom: 2px solid white;
   margin: 30px 0;
 }
+/* .text_field input this is used for positioning and colouring the input text  */
 .text_field input {
   width: 100%;
   padding: 0 5px;
@@ -179,6 +185,7 @@ form .text_field {
   outline: none;
   color: white;
 }
+/* .text_field label is used to format, position the labels for example the Email and Password labels */
 .text_field label {
   position: absolute;
   top: 50%;
@@ -190,6 +197,7 @@ form .text_field {
   transition: 0.5s;
   font-family: "Sonic Sans", sans-serif;
 }
+/* .text_field span::before is used for styling/positioning the login input where a underline will be animated */
 .text_field span::before {
   content: "";
   position: absolute;
@@ -197,9 +205,10 @@ form .text_field {
   left: 0;
   width: 0%;
   height: 2px;
-  background: #150167;
+  background: #352182;
   transition: 0.5s;
 }
+/* This is used for animating the labels and input. also adding colour */
 .text_field input:focus ~ label,
 .text_field input:valid ~ label {
   top: -5px;
@@ -209,15 +218,18 @@ form .text_field {
 .text_field input:valid ~ span::before {
   width: 100%;
 }
+/* this is used for the Forgot Password feature, for the styling and colour*/
 .pass {
   margin: -5px 0 20px 5px;
   color: #cac9d1;
   cursor: pointer;
   text-align: center;
 }
+/* for Forgot Password this creates the text underline*/
 .pass:hover {
   text-decoration: underline;
 }
+/* This is used to create the login submit button, style/layout and colour*/
 input[type="submit"] {
   width: 100%;
   height: 50px;
@@ -231,20 +243,24 @@ input[type="submit"] {
   outline: none;
   font-family: "Sonic Sans", sans-serif;
 }
+/* Also this is used to create a hover for the submit button */
 input[type="submit"]:hover {
   border-color: #2691d9;
   transition: 0.5s;
 }
+/* This create a style for the text, size and colour*/
 .signup_link {
   margin: 30px 0;
   text-align: center;
   font-size: 16px;
   color: #cac9d1;
 }
+/* With the sign-up link it is coloured */
 .signup_link a {
   color: #ff0000;
   text-decoration: none;
 }
+/* Also, the sign-up link has a hover which underline */
 .signup_link a:hover {
   text-decoration: underline;
 }
@@ -252,6 +268,8 @@ input[type="submit"]:hover {
 /* login page styling END*/
 
 /* sign-up page styling START */
+
+/* /* This create a style for the text, size and colour*/
 .forgot-sign-up {
   margin: 10px 0 10px 0;
   color: #fff;
@@ -259,34 +277,38 @@ input[type="submit"]:hover {
   display: flex;
   justify-content: center;
 }
+/*This is for forgot password position/layout */
 .forgot-sign-up label input {
   margin-right: 3px;
 }
+/* With the forgot password it is coloured */
 .forgot-sign-up label a {
   color: #fff;
   text-decoration: none;
 }
+/* Also, the forgot password text has a hover which underline */
 .forgot-sign-up label a:hover {
   text-decoration: underline;
 }
-
+/* Email image postions  */
 .emailimage-sign-up {
   width: 20px;
   height: 20px;
   margin-left: 330px;
 }
+/* Lock image postions  */
 .passwordlogo-sign-up {
   width: 20px;
   height: 20px;
   margin-left: 330px;
 }
-
+/* Username image postions  */
 .usernameimage {
   width: 20px;
   height: 20px;
   margin-left: 330px;
 }
-
+/* Created position/size and background colour for the  Sign-up page*/
 .login-center-sign-up {
   position: absolute;
   top: 50%;
@@ -299,6 +321,7 @@ input[type="submit"]:hover {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
   border: 0.6px solid red;
 }
+/* This creates the text style, colour Format */
 .login-center-sign-up h1 {
   text-align: center;
   font-family: "Sonic Sans", sans-serif;
@@ -306,15 +329,18 @@ input[type="submit"]:hover {
   padding: 20px 0;
   border-bottom: 1px solid white;
 }
+/* Sign-up form layout*/
 .login-center-sign-up form {
   padding: 0 40px;
   box-sizing: border-box;
 }
+/* form .text_field is used to create underline in sign-up page */
 form .text_field-sign-up {
   position: relative;
   border-bottom: 2px solid white;
   margin: 30px 0;
 }
+/* .text_field input this is used for positioning and colouring the input text  */
 .text_field-sign-up input {
   width: 100%;
   padding: 0 5px;
@@ -325,6 +351,7 @@ form .text_field-sign-up {
   outline: none;
   color: white;
 }
+/* .text_field label is used to format, position the labels for example the Username, Email and Password labels */
 .text_field-sign-up label {
   position: absolute;
   top: 50%;
@@ -336,6 +363,7 @@ form .text_field-sign-up {
   transition: 0.5s;
   font-family: "Sonic Sans", sans-serif;
 }
+/* .text_field span::before is used for styling/positioning the sign-up input where a underline will be animated */
 .text_field-sign-up span::before {
   content: "";
   position: absolute;
@@ -346,6 +374,7 @@ form .text_field-sign-up {
   background: #150167;
   transition: 0.5s;
 }
+/* This is used for animating the labels and input. also adding colour */
 .text_field-sign-up input:focus ~ label,
 .text_field-sign-up input:valid ~ label {
   top: -5px;
@@ -355,15 +384,18 @@ form .text_field-sign-up {
 .text_field-sign-up input:valid ~ span::before {
   width: 100%;
 }
+/* this is used for the Forgot Password feature, for the styling and colour*/
 .pass {
   margin: -5px 0 20px 5px;
   color: #cac9d1;
   cursor: pointer;
   text-align: center;
 }
+/* for Forgot Password this creates the text underline*/
 .pass:hover {
   text-decoration: underline;
 }
+/* This is used to create the sign submit button, style/layout and colour*/
 input[type="submit"] {
   width: 100%;
   height: 50px;
@@ -377,21 +409,25 @@ input[type="submit"] {
   outline: none;
   font-family: "Sonic Sans", sans-serif;
 }
+/* Also this is used to create a hover for the submit button */
 input[type="submit"]:hover {
   border-color: #2691d9;
   transition: 0.5s;
 }
-.signup_link {
+/* This create a style for the text, size and colour*/
+.login_link {
   margin: 30px 0;
   text-align: center;
   font-size: 16px;
   color: #cac9d1;
 }
-.signup_link a {
+/* With the sign-up link it is coloured */
+.login_link a {
   color: #ff0000;
   text-decoration: none;
 }
-.signup_link a:hover {
+/* Also, the sign-up link has a hover which underline */
+.login_link a:hover {
   text-decoration: underline;
 }
 
@@ -399,6 +435,7 @@ input[type="submit"]:hover {
 
 /* Leaderboard page styling START  */
 
+/* table, td and th positioning/layout */
 table,
 td,
 th {
@@ -408,7 +445,7 @@ th {
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
-
+/* table styling */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -417,21 +454,22 @@ table {
   color: white;
 }
 
+/* Both th and td is used to create space between the cell edge cell content */
 th,
 td {
   padding: 15px;
 }
-
+/* table: Is used to adjacent table cell borders to be merged into a single border, */
 table {
   border-collapse: collapse;
   width: 100%;
 }
-
+/* tr hover styling */
 tr:hover {
   background-color: rgb(255, 0, 0);
   backdrop-filter: blur(0px);
 }
-
+/* th styling/*/
 th {
   background-color: #0a0c8c;
   color: white;

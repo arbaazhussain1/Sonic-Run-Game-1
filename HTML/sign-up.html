@@ -3,65 +3,79 @@
   <head>
     <title>Sign-Up</title>
     <link rel="stylesheet" href="../CSS/css-website.css" />
+    <script src="javascript.js"></script>
   </head>
   <body>
     <!-- Top Navigation -->
     <div class="topnav">
       <ul class="topNav">
+        <li><a class="Logo" href="../index.html">Sonic RUN</a></li>
         <li><a href="../index.html">Home</a></li>
         <li><a href="sign-up.html">Sign-Up</a></li>
         <li><a href="login.html">Login</a></li>
         <li><a href="leaderboard.html">Leader Board</a></li>
       </ul>
     </div>
-
+    <!-- The Sign-up page -->
     <div class="login-center-sign-up">
+      <!-- title for the Signup page-->
       <h1>Sign-Up</h1>
+      <!-- Used for the browser to submit a from with data -->
       <form method="post">
+        <!--User input for First Name text field -->
         <div class="text_field-sign-up">
-          <input type="text" required />
+          <input id="firstname"  type="text" required />
           <span></span>
           <label>First Name</label>
+          <!--logo for First Name -->
           <img
             class="usernameimage"
             src="../Images/profile.png"
-            alt="Email logo"
+            alt="First name logo"
           />
         </div>
+        <!--User input for Last Name text field -->
         <div class="text_field-sign-up">
-          <input type="text" required />
+          <input id="lastname" type="text" required />
           <span></span>
           <label>Last Name</label>
+          <!--logo for Last Name -->
           <img
             class="usernameimage"
             src="../Images/profile.png"
-            alt="Email logo"
+            alt="Last Name logo"
           />
         </div>
+        <!--User input for Username text field -->
         <div class="text_field-sign-up">
-          <input type="text" required />
+          <input id="username" type="text" required />
           <span></span>
           <label>Username</label>
+          <!-- logo for Username-->
           <img
             class="usernameimage"
             src="../Images/profile.png"
-            alt="Email logo"
+            alt="Username logo"
           />
         </div>
+        <!--User input for Email text field -->
         <div class="text_field-sign-up">
-          <input type="text" required />
+          <input id="email" type="text" required />
           <span></span>
           <label>Email</label>
+          <!-- logo for Email-->
           <img
             class="emailimage-sign-up"
             src="../Images/Email.png"
             alt="Email logo"
           />
         </div>
+        <!--User input for Password text field -->
         <div class="text_field-sign-up">
-          <input type="password" required />
+          <input id="password" type="password" required />
           <span></span>
           <label>Password</label>
+          <!-- logo for Password-->
           <img
             class="passwordlogo-sign-up"
             src="../Images/lock.png"
@@ -69,17 +83,20 @@
           />
         </div>
         <div class="forgot-sign-up">
+          <!-- Created a checkbox for remembering the Users passwords -->
           <label for=""><input type="checkbox" />Remember Me </label>
         </div>
         <div class="pass">Forgot Password?</div>
+        <!-- Submit button for Login-->
         <input type="submit" value="Login" />
-        <div class="signup_link">
+        <!-- A link to sign-up page-->
+        <div class="login_link">
           Don't have a account? <a href="../HTML/login.html">Login</a>
         </div>
       </form>
     </div>
   </body>
-
+  <!--Footer-->
   <footer>
     <p>
       Created by Arbaaz Ali Hussain M00872279 &copy; . Contact:
